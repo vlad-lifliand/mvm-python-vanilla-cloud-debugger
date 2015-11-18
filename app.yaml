@@ -8,4 +8,4 @@ beta_settings:
   service_account_scopes: >
     https://www.googleapis.com/auth/cloud-platform
 
-entrypoint: python randomgenerator.py
+entrypoint: python -m googleclouddebugger -- randomgenerator.py
